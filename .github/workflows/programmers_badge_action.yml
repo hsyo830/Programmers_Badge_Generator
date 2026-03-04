@@ -1,6 +1,7 @@
 name: programmers_badge_action
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
